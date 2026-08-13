@@ -1,0 +1,17 @@
+[project]
+name = "loan-approval-prediction-with-shap-an-end-to-end-machine-learning-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Charles Raja R", email = "rcr2003rcharlesraja@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+loan-approval-prediction-with-shap-an-end-to-end-machine-learning-project = "loan_approval_prediction_with_shap_an_end_to_end_machine_learning_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
