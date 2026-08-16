@@ -1,5 +1,5 @@
 [project]
-name = "loan-approval-prediction-with-shap-an-end-to-end-machine-learning-project"
+name = "loan-approval-prediction-with-shap"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -7,11 +7,18 @@ authors = [
     { name = "Charles Raja R", email = "rcr2003rcharlesraja@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "colabtools>=0.0.1",
+    "kaggle>=2.2.4",
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.2",
+    "pandas>=3.0.5",
+    "scikit-learn>=1.9.0",
+    "seaborn>=0.13.2",
+]
 
 [project.scripts]
-loan-approval-prediction-with-shap-an-end-to-end-machine-learning-project = "loan_approval_prediction_with_shap_an_end_to_end_machine_learning_project:main"
-
+loan-approval-prediction-with-shap = "loan_approval_prediction_with_shap:main"
 [build-system]
 requires = ["uv_build>=0.12.3,<0.13.0"]
 build-backend = "uv_build"
